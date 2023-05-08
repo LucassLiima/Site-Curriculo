@@ -1,0 +1,96 @@
+aside{
+    margin: 20px;
+    flex: 30%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+aside > .foto{
+    height: 300px;
+    background-image: url(../imagens/zoro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+hr{
+    margin: 10px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 30px 30px 30px 30px;
+    align-items: center;
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    margin: 10px;
+}
+
+.skills > .skillsGrafico{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #ccc;
+    text-align: center;
+    margin: 5px;
+}
+
+.skillsGrafico > .preenchimento{
+    width: 90%;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.skillsGrafico > .preenchimento1{
+    width: 80%;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.skillsGrafico > .preenchimento2{
+    width: 5%;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.skillsGrafico > .preenchimento3{
+    width: 3%;
+    background-color: green;
+    border-radius: 30px;
+}
+
+
+
+.languages > .portuguesGrafico{
+    border: 1px solid black;
+    background-color: green;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+.languages > .inglesGrafico{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #ccc;
+}
+
+.preenchimento5{
+    width: 10%;
+    background-color: green;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+

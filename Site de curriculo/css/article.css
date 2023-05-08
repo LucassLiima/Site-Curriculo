@@ -1,0 +1,23 @@
+article{
+    margin: 20px;
+    border: 1px solid black;
+    flex: 70%;
+    padding: 10px;
+}
+
+.info1{
+    padding: 10px;
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
